@@ -14,7 +14,7 @@ class Dog
   end
 
   def self.all
-    print @@all.map { |variable| variable  }
+    print @@all.map { |variable| [variable, variable.name] @name }
   end
 
 
