@@ -14,14 +14,8 @@ class Dog
   end
 
   def self.all
-    @@all.detect do |variable|
-      if variable == @name
-      puts "#{name}"
+    @@all.each do |dog|
+      dog.name
     end
-    
-
   end
-
-
-
 end
