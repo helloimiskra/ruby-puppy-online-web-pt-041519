@@ -16,7 +16,7 @@ class Dog
   def self.all
     @@all.detect { |variable|
       if variable == @name
-      puts "#{name}"}.to_s
+      puts "#{name}"}
 
   end
 
