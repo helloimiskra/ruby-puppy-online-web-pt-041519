@@ -1,4 +1,4 @@
-require 'pry'
+
 class Dog
   attr_accessor :name
 
@@ -14,8 +14,7 @@ class Dog
   end
 
   def self.all
-    @@all
-    binding.pry
+    @@all.select {|x| x.include?(@name)}
   end
 
 
