@@ -14,7 +14,7 @@ class Dog
   end
 
   def self.all
-    puts @@all.instance_variables
+    @@all.map { |variable| variable  }
   end
 
 
