@@ -12,6 +12,10 @@ class Dog
     @@all = []
   end
 
+  def self.all
+    @@all
+  end
+
 
 
 end
