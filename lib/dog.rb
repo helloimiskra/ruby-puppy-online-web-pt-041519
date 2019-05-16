@@ -15,7 +15,7 @@ class Dog
 
   def self.all
     @@all.detect { |variable| variable == @name}
-  
+
   end
 
 
