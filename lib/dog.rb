@@ -13,8 +13,8 @@ class Dog
   end
 
   def self.all
-    @@all.map do |x| 
-      if x == @name 
+    @@all.map do |x|
+      if x == @name
         puts "#{name}"
       end
     end
