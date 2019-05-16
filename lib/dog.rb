@@ -14,7 +14,7 @@ class Dog
   end
 
   def self.all
-    @@all.map { |variable| @name}
+    @@all.detect { |variable| variable == @name}
   
   end
 
