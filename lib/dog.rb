@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    puts @@all.map {|x| x == @name puts "#{name}"}
+    @@all.map {|x| x == @name puts "#{name}"}
   end
 
 
