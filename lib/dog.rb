@@ -14,7 +14,7 @@ class Dog
   end
 
   def self.all
-    @@all.select {|x| x.include?(@name)}
+    @@all.to_s
   end
 
 
